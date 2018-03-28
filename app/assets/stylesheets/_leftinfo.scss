@@ -1,0 +1,130 @@
+.top-col,.bottom-col{
+    width:190px;
+    padding:2px;
+    margin-top:15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#ccc;
+    border-radius:5px;
+}
+
+.btn-group{
+    margin:5px 0 5px 0 ;
+    width:100%;
+}
+
+.btn-group .btn{
+    background:#fff;
+    color:#004080;
+    border:0;
+    margin:0;
+    padding:0;
+    font-weight: 700;
+    font-size:12px;
+}
+
+.list{    
+    height:33px;
+    margin-bottom:10px;
+    padding-top:8px;
+    padding-left:10px;
+    color:#004080;
+    background: linear-gradient(#DDF2FC 50%, #B6DFFA 50%);
+    font-weight: 700;
+    font-size:12px;
+    border-style:solid;
+    border-color:rgb(136, 205, 252);
+    border-width:1px;
+    border-radius: 5px;
+    
+}
+.list img{
+    height:12px;
+    width:12px;
+    margin-right:5px;    
+}
+
+.btn-group img{
+    margin-top:4px;
+    margin-right:5px;
+    margin-left:10px;
+    padding-top:0;
+    display:inline;
+    height:20px;
+    width:12px;
+}
+.btn-group .dot-arrow{
+    margin-top:-2px;
+    padding-top:0;    
+    height:12px;
+    width:12px;
+}
+.btn-group ul{
+    margin:0;
+    padding:0;
+    display:inline;    
+}
+
+.dropdown-menu {
+    margin-top:10px;
+    padding:0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #4286f4;
+
+}
+.dropdown-menu li{
+    list-style-type:none;  
+    margin:0;
+    height:30px;
+    line-height: 30px;
+    padding:0;
+    font-weight: 700;
+    font-size:12px;
+}
+
+.dropdown-menu img{
+    margin-left:5px;
+    margin-right:10px;
+}
+
+.dropdown-menu a{
+    text-decoration: none;
+    color:#004080;    
+    background:none;
+}
+.dropdown-menu li:hover{    
+    background:#B6E0F9;
+}
+
+.login,.login-btn{
+    margin-left:10px;
+    color:#000;
+    font-weight: 700;
+    font-size:12px;
+}
+
+.login-btn{
+    margin-top:15px;    
+}
+
+.login input{
+    width:130px;
+    height:20px;    
+}
+
+.login img{
+    margin-top:10px;
+}
+
+.login-btn button{
+    box-shadow: 0;
+    border-color:#ccc;
+    border-width:1px;
+}
+
+.login-btn a{    
+    margin-left:10px;
+    font-size:12px;
+    text-decoration: none;
+}
