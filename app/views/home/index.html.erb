@@ -201,20 +201,21 @@
             <div class="path">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="#">首頁</a></li>
-                    <li class="breadcrumb-item"><a href="#">徵才資訊</li>
+                    <li class="breadcrumb-item"><a href="#">徵才資訊</a></li>
                 </ol>
             </div>
-                <div class="job">
-                    <table class="table">
-                        <% @jobs.each do |jobs| %>
-                            <tr>
-                                <td>
-                                    <%= link_to jobs.title, jobs.link %> [<%= jobs.publish_date %>]
-                                </td>
-                            </tr>                        
-                        <% end %>
-                    </table>
-                </div>
+            <div class="job">
+                <table class="table">
+                    <% @jobs.each do |jobs| %>
+                        <tr>
+                            <td>
+                                <%= link_to jobs.title, jobs.link %> [<%= jobs.publish_date %>]<br>
+                                <span><%= simple_format( jobs.info) %></span>
+                            </td>
+                        </tr>                        
+                    <% end %>
+                </table>
+            </div>
             
         </div>
     </div>
